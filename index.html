@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<style>
+			span.highlight-blue {
+				color: #1b91ff;
+				font-weight: bold;
+			}
+			img.icon {
+				border: none 0px !important;
+				width: 48px;
+				background: none !important;
+			}
+			table.checkmark-table td {
+				text-align: center;
+			}
+			table.checkmark-table td img {
+				border: none 0px !important;
+				width: 48px;
+				background: none !important;
+			}
+			table.checkmark-table td.left-title {
+				text-align: left;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<ul class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<ul class="slides">
+				<section>
+					<h1>Hackathon Citoyen</h1>
+					<h3>Présentation aux associations</h3>
+					<p>
+						<small>Rodrigo Reyes - 22/06/2015</small>
+					</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Hackathon</h2>
+						<p>
+						<table>
+						<tr>
+							<td><span class="highlight-blue">hack-</span></td>
+							<td>Hacking <i>(programmation exploratoire, modifier, améliorer)</i></td>
+						</tr>
+						<tr>
+							<td style="width: 5em;"><span class="highlight-blue">-athon</span></td>
+							<td>Marathon <i>(une course un peu éprouvante)</i></td>
+						</tr>
+						</table>
+						</p>
+					</section>
+					<section data-background="img/swetours-2015.jpg">
+					</section>
+					<section>
+						<h2>Hackathon Citoyen ?</h2>
+						Un pont entre associations et informaticiens
+					</section>
+
+					<section>
+						<h2>Informaticiens et bénévolats</h2>
+						<p>
+						<ul>
+							<li>Beaucoup de bénévolat</li>
+							<li>Pas avec des associations</li>
+						</ul>
+						</p>
+					</section>
+
+				</section>
+
+				<section>
+
+					<section>
+						<h2><span class="highlight-blue">Digression importante</span></h2>
+						<h3>Comprendre les informaticiens</h3>
+					</section>
+
+					<section>
+						<h2>De nombreux métiers spécialisés</h2>
+						<ul>
+							<li>Développeur: conçoit et réalise des applications, des sites web, etc</li>
+							<li>Administrateur réseau/système: gestionnaire de système</li>
+							<li>Administrateur de bases de données</li>
+							<li>Techicien de maintenance: gère les postes de travail/imprimante/réseau</li>
+							<li>etc. etc. etc.</li>
+						</ul>
+					</section>
+
+					<section>
+						<h4 style="margin-top: -1em;">Table des demandes de dépannage gratuit</h4>
+						<table class="checkmark-table">
+							<tr>
+								<th></th>
+								<th>Garagiste</th>
+								<th>Avocat</th>
+								<th>Informa- ticien</th>
+							</tr>
+							<tr>
+								<td class="left-title">Proche</td>
+								<td><img src="img/sign-check.svg"></td>
+								<td><img src="img/sign-check.svg"></td>
+								<td><img src="img/sign-check.svg"></td>
+							</tr>
+							<tr>
+								<td class="left-title">Famille éloignée</td>
+								<td><img src="img/sign-check.svg"></td>
+								<td><img src="img/sign-error.svg"></td>
+								<td><img src="img/sign-check.svg"></td>
+							</tr>
+							<tr>
+								<td class="left-title">Voisins</td>
+								<td><img src="img/sign-error.svg"></td>
+								<td><img src="img/sign-error.svg"></td>
+								<td><img src="img/sign-check.svg"></td>
+							</tr>
+							<tr>
+								<td class="left-title">Connaissances</td>
+								<td><img src="img/sign-error.svg"></td>
+								<td><img src="img/sign-error.svg"></td>
+								<td><img src="img/sign-check.svg"></td>
+							</tr>
+							<tr>
+								<td class="left-title">Inconnu rencontré il y a moins de 5 minutes</td>
+								<td><img src="img/sign-error.svg"></td>
+								<td><img src="img/sign-error.svg"></td>
+								<td><img src="img/sign-check.svg"></td>
+							</tr>
+							<tr>
+								<td class="left-title">Parfaits étrangers</td>
+								<td><img src="img/sign-error.svg"></td>
+								<td><img src="img/sign-error.svg"></td>
+								<td><img src="img/sign-check.svg"></td>
+							</tr>
+						</table>
+					</section>
+
+					<section>
+						<h2>Revenons aux informaticiens et aux associations</h2>
+					</section>
+
+					<section>
+						<h2>Que fait un développeur&nbsp;?</h2>
+						<ul>
+							<li>Conception et réalisation</li>
+							<li>Grande concentration sur de <u>longues périodes</u></li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Quelques chiffres (INSEE, 2004)</h2>
+						<ul>
+							<li>En moyenne, un don de temps de 2,5h/semaine</li>
+							<li>mais 2/3 des bénévoles: 1h (8% du total)</li>
+							<li>Statistiquement: dispersion importante</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Difficultés pour les développeurs</h2>
+						<div style="margin-top: 1em;">&rarr; <span class="highlight-blue">Difficile de donner seulement 1h par semaine</span></div>
+						<div style="margin-top: 1em;">&rarr; <span class="highlight-blue">Les mêmes problèmes que pour un développement classique</span></div>
+					</section>
+
+					<section>
+						<div style="margin-top: -2em;">
+							<img src="img/specs.png">
+						</div>
+					</section>
+
+					<section>
+						<h2>Comment gérer ?</h2>
+						<ul>
+							<li>Discuter et comprendre son travail</li>
+							<li>Définir l'essentiel</li>
+							<li>Favoriser les tâches courtes</li>
+							<li>Y aller par étape</li>
+						</ul>
+
+						<p>
+
+						</p>
+					</section>
+
+					<section>
+						<h2>Gardez en tête</h2>
+						<ul>
+							<li>Développer une solution informatique et l'utiliser sont deux tâches très différentes</li>
+							<li>Concentrez-vous sur l'expression de votre besoin,
+								<br>et <span class="highlight-blue">co-concevez</span> la solution</li>
+							<li><span class="highlight-blue">Collaboration</span>, pas consommation</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Fin de la digression</h2>
+					</section>
+
+				</section>
+
+
+				<section>
+					<h2>Hackathon Citoyen</h2>
+					<h3>Quels projets</h3>
+					<ul>
+						<li>Un site web</li>
+						<li>Une application (gestion, communication, etc) ?</li>
+						<li>De nouvelles fonctionnalités</li>
+						<li>Du graphisme, des logos ?</li>
+						<li>Des initiations aux outils ?</li>
+						<li><span class="highlight-blue"><i>Ce que vous exprimerez</i></span></li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Déroulement</h3>
+					<ul>
+						<li>Proposition de projets par les associations</li>
+						<li>Analyse et sélection</li>
+						<li>Présentation des projets aux développeurs</li>
+						<li>Constitution des équipes</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Le week-end</h3>
+					<ul>
+						<li>Collaboration inter-équipes encouragée</li>
+						<li>L'association fait partie de l'équipe</li>
+						<li>Deux jours pleins</li>
+						<li>Présentation de tous les projets à la fin</li>
+					</ul>
+					<p>
+						Le travail des bénévoles s'arrête à la fin du week-end
+					</p>
+				</section>
+
+				<section>
+					<h2>Mesure du succès</h2>
+					<div style="float: left; margin-left: 2em; margin-right: 2em;">
+						<img src="img/success.png">
+					</div>
+					<ul>
+						<li>Réalisations terminées </li>
+						<li>Utilité immédiate </li>
+						<li>Autonomie d'utilisation</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Succès informels</h2>
+					<ul>
+						<li>Les prises de contact</li>
+						<li>Inciter les informaticiens au bénévolat local</li>
+					</ul>
+				</section>
+
+				</ul>
+
+			</ul>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
